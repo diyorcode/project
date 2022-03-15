@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #FBFCFF;
+}
+header{
+    width: 240px;
+    height: 1050px;
+    padding: 45px;
+}
+.img-logo{
+    display: inline-block;
+}
+nav{
+}
+.bolim{
+    display: flex;
+}
+.navbar{
+    margin-top: 100px;
+}
+.navbar>a{
+    text-decoration: none;
+}
+nav>a{
+    text-decoration: none;
+}
+.iffee{
+    width: 42px;
+    height: 24px;
+    margin-left: 5px;
+    font-family: Product Sans;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #304858;
+}
+.menu-class{
+    margin-top: 100px;
+    font-family: Product Sans;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3629B7;
+}
+.sidebar{
+    margin-top: 18px;
+}
+.sidebar>a{
+    width: 50px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.sidebar>p>a{
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    text-decoration: none;
+    font-family: Product Sans;
+    font-size: 14px;
+    line-height: 17px;
+    color: #838383;
+}
+.sidebar>p>img{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.scheluf{
+    margin-top: 100px;
+}
+.scheluf>a{
+    font-family: Product Sans;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3629B7;
+}
+.checkbox{
+    margin-top: 40px;
+    display: flex;
+}
+.checkbox1{
+    margin-right: 10px;
+}
+.img-photo{
+    width: 183px;
+    display: flex;
+    height: 63px;
+    background: #F9FAFF;
+    border-radius: 5px;
+    margin-top: 100px;
+    padding: 5px;
+}
+.img-photo>p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #591AED;
+}
+.strelka{
+    width: 6.54px;
+    height: 6.34px;
+    border: 1px solid #591AED;
+    transform: matrix(0.72, 0.71, 0.68, -0.72, 0, 0);
+}
+.nect-icon{
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 16px;
+    height: 10px;
+}
+.top-bar-search{
+    border: 1px solid rgb(219, 215, 215);
+    margin-top: 24px;
+    text-align: center;
+    width: 517px;
+    height: 50px;
+    outline: none;
+}
+.top-bar-car{
+    border: 1px solid rgb(219, 215, 215);
+    width: 310px;
+    text-align: center;
+    height: 50px;
+    outline: none;
+    margin-left: 10px;
+}
+.img-next{
+    position: relative;
+    right: 40px;
+    bottom: 2px;
+}
+.union-img{
+    position: relative;
+    left: 40px;
+    top: 3px;
+}
+.img-top-controls{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.button{
+    margin-top: 70px;
+    height: 102px;
+    display: flex;
+    justify-content: space-around;
+}
+.button>div{
+    width: 100px;
+    height: 102px;
+    background: #FEFEFF;
+    box-shadow: 0px 100px 80px rgba(41, 72, 152, 0.05), 0px 64.8148px 46.8519px rgba(41, 72, 152, 0.037963), 0px 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704), 0px 20px 13px rgba(41, 72, 152, 0.025), 0px 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296), 0px 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+    border-radius: 10px;
+}
+.button>div>img{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.img-montain{
+    position: relative;
+    right: 20px;
+}
+.text-h1{
+    margin-top: 110px;
+    display: flex;
+    margin-left: 40px;
+}
+.text-h1>h1{
+    width: 610px;
+    height: 58px;
+    font-family: Gilroy-Light;
+    font-size: 38px;
+    line-height: 56px;
+    color: #000000;
+}
+.text-h1>h1>sup{
+    width: 120px;
+    height: 58px;
+    font-family: Gilroy-Light;
+    font-size: 14px;
+    line-height: 56px;
+    color: #000000;
+}
+.btnlar{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    margin-right: 15px;
+    background: #FEFEFF;
+    box-shadow: 0px 100px 80px rgba(41, 72, 152, 0.05), 0px 64.8148px 46.8519px rgba(41, 72, 152, 0.037963), 0px 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704), 0px 20px 13px rgba(41, 72, 152, 0.025), 0px 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296), 0px 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+    border-radius: 10px;
+}
+.img-car{
+    margin-top: 70px;
+}
+
+.features{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+    height: 300px;
+    position: relative;
+    left: 800px;
+    bottom: 400px;
+}
+.features1{
+    display: flex;
+}
+.features1>img{
+    width: 30px;
+    height: 30px;
+}
+.features1>b{
+    position: relative;
+    bottom: 10px;
+    left: 12px;
+    font-family: Google Sans;
+    font-size: 18px;
+    line-height: 29px;
+    color: #1D2C3C;
+}
+.features1>p{
+    position: relative;
+    top: 15px;
+    right: 7px;
+    font-family: Google Sans;
+    font-size: 17.0164px;
+    line-height: 22px;
+    color: #9BA6B2;
+    margin-bottom: 80px;
+}
+.graph{
+    position: relative;
+    bottom: 250px;
+    display: flex;
+    justify-content: space-between;
+    height: 196px;
+}
+.graph1{
+    width: 486px;
+    position: relative;
+    display: flex;
+    background: #FEFEFF;
+    box-shadow: 0px 100px 80px rgba(41, 72, 152, 0.05), 0px 64.8148px 46.8519px rgba(41, 72, 152, 0.037963), 0px 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704), 0px 20px 13px rgba(41, 72, 152, 0.025), 0px 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296), 0px 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+    border-radius: 10px;
+}
+.img-baland{
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 284px;
+    height: 92px;
+}
+.qirqsakkiz{
+    position: relative;
+    right: 375px;
+    top: 120px;
+    width: 23px;
+    height: 25px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.07em;
+    color: #000000;
+}
+.img-onikki{
+    position: relative;
+    top: 150px;
+    right: 400px;
+    width: 61px;
+    height: 20px;
+}
+.yhisyera{
+    position: relative;
+    top: 10px;
+    left: 300px;
+    font-family: Google Sans;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+}
+.races{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Google Sans;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.img-onikki1{
+    position: relative;
+    top: 150px;
+    right: 420px;
+    width: 61px;
+    height: 20px;
+}
+.qirqsakkiz1{
+        position: relative;
+        right: 395px;
+        top: 120px;
+        width: 23px;
+        height: 25px;
+        font-family: Google Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.07em;
+        color: #000000;
+}
